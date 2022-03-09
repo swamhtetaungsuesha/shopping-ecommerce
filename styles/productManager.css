@@ -1,0 +1,27 @@
+.img-up> .file_img:nth-of-type(1){
+    width: 100%;
+    height: 300px;
+}
+.img-up .file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.img-up> .file_img {
+    position:relative;
+    width: 25%;
+    height: 100px;
+}
+
+.img-up> .file_img > span {
+    padding: 3px 10px;
+    position: absolute;
+    top: -5px;;
+    right:0;
+    background-color: #fff;
+    color: crimson;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    cursor: pointer;
+}

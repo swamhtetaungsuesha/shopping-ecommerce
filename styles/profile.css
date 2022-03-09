@@ -1,0 +1,45 @@
+.user_img_container{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.img_change_container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: absolute;
+    background-color: hsla(0,0%,100%,.53);
+    color : #ff8c2d;
+    bottom: -30%;
+    left: 0;
+   transition: bottom 0.4s ease;
+}
+.user_img_container:hover>.img_change_container{
+    bottom: 0;
+}
+.img_change_container>input{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+::-webkit-file-upload-button{
+    cursor: pointer;
+}
+.user_img_container>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

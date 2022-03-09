@@ -1,0 +1,6 @@
+.img-container .active{
+    border: 1px solid orangered;
+}
+.product-details h2{
+    text-transform: uppercase;
+}

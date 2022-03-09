@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p>a:hover,h4>a:hover,h5>a:hover{
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+/* ----------- Product Item ------------- */
+@import url('./productItem.css');
+
+/* ----------- Product Item ------------- */
+@import url('./productDetail.css');
+
+/* ----------- Profile ------------- */
+@import url('./profile.css');
+
+/* ----------- Product Manager ------------- */
+@import url('./productManager.css');
